@@ -15,9 +15,14 @@ export default function Home() {
             priority
           />
         </div>
-        <button className="font-chopsticks text-lg md:text-xl border-2 border-black rounded-full px-6 py-2 hover:bg-black/5 transition-colors uppercase pt-3 cursor-pointer">
+        <a 
+          href="https://expo.dev/artifacts/eas/ic6jAq6t99DxLhEYehzqZw.apk"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-chopsticks text-lg md:text-xl border-2 border-black rounded-full px-6 py-2 hover:bg-black/5 transition-colors uppercase pt-3 cursor-pointer"
+        >
           Download Now
-        </button>
+        </a>
       </nav>
 
       {/* Main Content Grid */}
@@ -45,9 +50,14 @@ export default function Home() {
 
           <div className="flex flex-col items-center gap-2">
             {/* CTA BUTTON */}
-            <button className="font-chopsticks bg-flick-lime border-2 border-black text-xl md:text-2xl px-10 py-3 rounded-full hover:scale-105 transition-transform uppercase pt-4 cursor-pointer">
+            <a 
+              href="https://expo.dev/artifacts/eas/ic6jAq6t99DxLhEYehzqZw.apk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-chopsticks bg-flick-lime border-2 border-black text-xl md:text-2xl px-10 py-3 rounded-full hover:scale-105 transition-transform uppercase pt-4 cursor-pointer"
+            >
               Download Now
-            </button>
+            </a>
             
             {/* ANDROID NOTE  */}
             <span className="font-martian text-red-600 text-xs md:text-sm tracking-wide mt-2">
